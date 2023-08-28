@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+    background-image: url(banner-1.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #c6e2ff; /* Light blue container background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(9, 11, 170, 0.1);
+}
+
+h1 {
+    color: #11568f; /* Dark blue text color */
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    color: #11568f;
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #11568f;
+    border-radius: 5px;
+    width: 150px;
+}
+
+button {
+    opacity: 0,5;
+    padding: 10px 20px;
+    background-color: #11568f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d1b4b; /* Darker blue on hover */
+}
+
+#result {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #e90909;
+    font-weight: bold;
+}
